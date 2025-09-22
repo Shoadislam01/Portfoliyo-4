@@ -93,15 +93,14 @@ img {
 }
 
 /* Hero Section */
-.hero-section {
+/* .hero-section {
     display: flex;
     text-align: center;
     padding: 5rem 0;
-    background: linear-gradient(135deg, #6b73ff, #000dff);
-    color: white;
-
-    padding: 6px;
-    margin: 6px;
+    background: linear-gradient(135deg, #d0d1d8, #bdbdc0);
+    color: rgb(253, 0, 0);
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-section h1 {
@@ -116,25 +115,30 @@ img {
 .hero-section p {
     font-size: 1.25rem;
     margin-bottom: 2rem;
-}
+} */
 
 /* About */
-.about-section {
-    padding: 4rem 0;
-}
+.contan-1{
+    background: #f1efefd0;
 
-.about-section h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
 }
-
-.about-section p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1.125rem;
-    line-height: 1.6;
+.card-1{
+    display: flex;
+align-items: center;
+    margin: 50px;
+    
 }
-
+.img-4{
+    border-radius: 10px;
+}
+.card-content{
+    margin: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
 /* Projects Grid */
 .projects-section {
     padding: 4rem 0;
@@ -275,7 +279,92 @@ img {
     border-radius: 20px;
 
 }
+.font-bebas{
+    font-family:Bebas Neue;
+}
 
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f9;
+  color: #333;
+}
+
+.education-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.education-section h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subtext {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.education-card {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.education-card .left {
+  width: 40%;
+}
+
+.education-card .right {
+  width: 55%;
+}
+
+.education-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.role {
+  font-size: 14px;
+  color: #444;
+}
+
+.date-badge {
+  display: inline-block;
+  background-color: #00aaff;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.recommand{
+    font-size: xx-large;
+    
+    
+}
+.eddu{
+    display: flex;
+    justify-content: center;
+}
+.img-4{
+    width: 40vw;
+
+}
 
 /* Responsive / Mobile */
 @media (max-width: 768px) {

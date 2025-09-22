@@ -4,66 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name — Front‑End Developer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>PORTFOLIYO</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 
-    <!-- Header / Navbar -->
-    <header class="site-header">
-        <div class="container">
-            <div class="logo">
-                <a href="https://www.facebook.com/sh.o.ad.315490">Facebook</a>
-            </div>
-            <nav class="site-nav">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="nav-toggle" aria-label="Open menu">☰</button>
-        </div>
-    </header>
 
     <!-- Hero / Intro -->
-    <section id="hero" class="hero-section">
-        <div class="container">
-            <h1>Hello, I’m <span>Shoad Islam</span></h1>
-            <p>I build modern, responsive & accessible websites.</p>
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-        </div>
-        <div>
-            <img class="ima-1" src="2.png" alt="">
+    <section class="bg-gray-100 min-h-screen">
+        <div class="px-[150px] py-[120px] flex justify-center items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-[214px]  justify-around items-center">
+                <div class=" text-center">
+                    <h1 class="uppercase font-bebas text-[128px] leading-[90%] font-normal">
+                        Hi, i am Shoad Islam.
+                    </h1>
+                    <p class="text-gray-400 pt-4 pb-[42px] text-[18px]">
+                        A Sydney based front-end developer passionate about building
+                        accessible and user friendly websites.
+                    </p>
+                    <div class="flex justify-center items-center gap-2 ">
+                        <button class="bg-[#23BBF8] px-[52px] py-[16px] text-white rounded-[10px]">
+                            Contact Me
+                        </button>
+                        <button class="bg-[#ffffff] h-[54px] w-[54px] rounded-full">
+                            <i class="fa-brands fa-linkedin-in text-white text-6"><img src="images.png" alt=""></i>
+                        </button>
+                        <button class="bg-[#23BBF8] h-[54px] w-[54px] rounded-full">
+                            <i class="fa-brands fa-github text-white text-6"><img src="link.jpg" alt=""></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="relative h-[700px] w-[588px]">
+                    <div class="absolute bottom-0 rounded-[76px] bg-[#23BBF8] h-[520px] w-[580px]"></div>
+                    <div class="absolute top-0">
+                        <img class="h-150" src="Adobe Express - file.png" alt="banner image" />
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
-
-
-    <!-- Projects -->
+    <!-- featured project -->
     <section id="projects" class="projects-section">
         <div class="container">
-            <h2>BLOG</h2>
+            <h2 class="recommand">FEATURED PROJECTS</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="download.jpg" alt="Project 1 Screenshot">
-                    <h3>How To Make Web Tempates</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, at!.</p>
+                    <img src="Advancer.jpg" alt="Project 1 Screenshot">
+                    <h3>Promotional landing page for our favorite show</h3>
+                    <p>teamed up with a designer to breathe life into a promotional webpage for our beloed show,
+                        Adventure Time.</p>
                     <a href="#" class="btn btn-secondary">View ↗</a>
                 </div>
                 <div class="project-card">
-                    <img src="download (1).jpg" alt="Project 2 Screenshot">
-                    <h3>How To Make Tampates</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, dicta.</p>
+                    <img src="Advancer.jpg" alt="Project 2 Screenshot">
+                    <h3>Promotional landing page for our favorite show</h3>
+                    <p>teamed up with a designer to breathe life into a promotional webpage for our beloed show,
+                        Adventure Time.</p>
                     <a href="#" class="btn btn-secondary">View ↗</a>
                 </div>
-                       <div class="project-card">
-                    <img src="download (2).jpg" alt="Project 2 Screenshot">
-                    <h3>How To Make Tampates</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, dicta.</p>
+                <div class="project-card">
+                    <img src="Advancer.jpg" alt="Project 2 Screenshot">
+                    <h3>Promotional landing page for our favorite show</h3>
+                    <p>teamed up with a designer to breathe life into a promotional webpage for our beloed show,
+                        Adventure Time.</p>
                     <a href="#" class="btn btn-secondary">View ↗</a>
                 </div>
                 <!-- more project-cards -->
@@ -71,10 +77,12 @@
         </div>
     </section>
 
+
+
     <!-- Services -->
     <section id="services" class="services-section">
         <div class="container">
-            <h2>My Services</h2>
+            <h2 class="recommand">My Services</h2>
             <div class="services-grid">
                 <div class="service-item">
                     <img src="web.jpg" alt="">
@@ -109,14 +117,194 @@
             </div>
         </div>
     </section>
-        <!-- About -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Short bio / description about who you are, what you do, your expertise, etc.</p>
+
+    <!-- recommend -->
+   <section class="bg-white">
+  <section class="py-16 px-6 md:px-20">
+    <!-- Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-gray-900">RECOMMENDATIONS</h2>
+
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 ">
+      
+      <!-- Card 1 -->
+      <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+        <div class="flex justify-center text-yellow-400 mb-2">
+          ⭐⭐⭐⭐⭐
         </div>
-        <div>
-            
+        <img src="james-2.jpg" class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+        <h3 class="font-semibold text-gray-800 ">James Gouse</h3>
+        <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+        <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+        <p class="text-sm text-gray-500">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi...
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+        <div class="flex justify-center text-yellow-400 mb-2">
+          ⭐⭐⭐⭐⭐
+        </div>
+        <img src="james-2.jpg" class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+        <h3 class="font-semibold text-gray-800">James Gouse</h3>
+        <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+        <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+        <p class="text-sm text-gray-500">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi...
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+        <div class="flex justify-center text-yellow-400 mb-2">
+          ⭐⭐⭐⭐⭐
+        </div>
+        <img src="james-1.jpg" class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+        <h3 class="font-semibold text-gray-800">James Gouse</h3>
+        <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+        <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+        <p class="text-sm text-gray-500">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi...
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+        <div class="flex justify-center text-yellow-400 mb-2">
+          ⭐⭐⭐⭐⭐
+        </div>
+        <img src="james-2.jpg" class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+        <h3 class="font-semibold text-gray-800">James Gouse</h3>
+        <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+        <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+        <p class="text-sm text-gray-500">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi...
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+        <div class="flex justify-center text-yellow-400 mb-2">
+          ⭐⭐⭐⭐⭐
+        </div>
+        <img src="james-1.jpg" class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+        <h3 class="font-semibold text-gray-800">James Gouse</h3>
+        <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+        <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+        <p class="text-sm text-gray-500">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi...
+        </p>
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="flex justify-center mt-6 space-x-2">
+      <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+      <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+    </div>
+  </section>
+  </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="recommand">BLOG</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="download.jpg" alt="Project 1 Screenshot">
+                    <h3>How To Make Web Tempates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, at!.</p>
+                    <a href="#" class="btn btn-secondary">View ↗</a>
+                </div>
+                <div class="project-card">
+                    <img src="download (1).jpg" alt="Project 2 Screenshot">
+                    <h3>How To Make Tampates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, dicta.</p>
+                    <a href="#" class="btn btn-secondary">View ↗</a>
+                </div>
+                <div class="project-card">
+                    <img src="download (2).jpg" alt="Project 2 Screenshot">
+                    <h3>How To Make Tampates</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, dicta.</p>
+                    <a href="#" class="btn btn-secondary">View ↗</a>
+                </div>
+                <!-- more project-cards -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="education-section">
+    <h1 class="eddu">EDUCATION</h1>
+    
+
+    <div class="education-card">
+      <div class="left">
+        <h3>UNIVERSITY OF TORONTO</h3>
+        <p class="role">Student</p>
+        <span class="date-badge">Jan 2021 - Dec 2025</span>
+      </div>
+      <div class="right">
+        <h3>CERTIFICATE OF WEB TRAINING</h3>
+        <p class="description">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor.
+        </p>
+      </div>
+    </div>
+
+    
+
+    <div class="education-card">
+      <div class="left">
+        <h3>UNIVERSITY OF TORONTO</h3>
+        <p class="role">Student</p>
+        <span class="date-badge">Jan 2021 - Dec 2025</span>
+      </div>
+      <div class="right">
+        <h3>CERTIFICATE OF WEB TRAINING</h3>
+        <p class="description">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor.
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="education-card">
+      <div class="left">
+        <h3>UNIVERSITY OF TORONTO</h3>
+        <p class="role">Student</p>
+        <span class="date-badge">Jan 2011 - Dec 2025</span>
+      </div>
+      <div class="right">
+        <h3>CERTIFICATE OF WEB TRAINING</h3>
+        <p class="description">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor.
+        </p>
+      </div>
+    </div>
+
+    <!-- Repeat education-card for more entries -->
+
+  </section>
+
+    <!-- About -->
+    <section class="contan-1">
+        <div class="about">
+            <h2>About Me</h2>
+        </div>
+        <div class="card-1">
+            <img class="img-4" src="Adobe Express - file.png" alt="Card Image">
+            <div class="card-content">
+
+                <p>I am a front-end developer based in Sydney. <br> Has Mechanical Engineering Background.</p>
+            </div>
         </div>
     </section>
     <!-- Contact -->
